@@ -1,4 +1,4 @@
-name: First_Workflow
+name: push_workflow
 on: 
    push:
       branches: [ main ]
