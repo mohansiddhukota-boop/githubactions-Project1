@@ -4,9 +4,7 @@ jobs:
     First_Job:
         runs-on: ubuntu-latest
         steps:
-            - name: First_Step
-              run: echo "This is my first workflow"
-              name: print goodbye
+            - name: print goodbye
               run: |
                 echo "This is my first workflow"
                 echo "workflow executed successfully"
